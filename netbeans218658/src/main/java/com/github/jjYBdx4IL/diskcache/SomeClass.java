@@ -13,12 +13,12 @@ import javax.persistence.EntityManagerFactory;
  */
 public class SomeClass {
   
-    protected EntityManagerFactory emf = null;
-    protected EntityManager em = null;
+    protected EntityManagerFactory emf = null; 
+    protected EntityManager em = null; 
     protected final SomeTypedQueryFactory diskCacheQueryFactory;
 
     public SomeClass(File parentDir, String dbName, boolean reinit) {
-        diskCacheQueryFactory = new SomeTypedQueryFactory(em);  
+        diskCacheQueryFactory = new SomeTypedQueryFactory(em);    
     } 
 
 }

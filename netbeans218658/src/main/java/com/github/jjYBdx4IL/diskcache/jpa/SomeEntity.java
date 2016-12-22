@@ -13,7 +13,7 @@ public class SomeEntity {
  
     private long id;
 
-    @Id
+    @Id 
     @GeneratedValue
 	public long getId() {
 		return id;

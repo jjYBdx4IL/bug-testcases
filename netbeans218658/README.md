@@ -9,5 +9,5 @@
 * clean install project
 * trigger CoS for SomeClass.java, error will pop up for SomeTypedQueryFactory.java
 * fix error "permanently" by triggering CoS for SomeEntity.java, "permanently" is until you trigger CoS for SomeClass.java again when project is in cleaned state.
-
+* the actual bug is that NetBeans does not pick up the generated sources after the "mvn clean install", one has to use explicit CoS for the related entity.
 
